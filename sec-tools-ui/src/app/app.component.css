@@ -1,0 +1,19 @@
+li{
+    display: inline;
+    padding-left: 2em;
+}
+
+nav{
+    display: flex;
+}
+
+ul{
+    align-content: center;
+}
+
+header{
+    border: 2.5px;
+    border-color: rgb(97, 97, 97);
+    border-style: solid;
+    border-radius: 15px;
+}

@@ -8,5 +8,10 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'sec-tools-ui';
+  title = 'Security Tools';
+
+  ngOnInit() {
+  }
+
 }
+
