@@ -11,7 +11,14 @@ export class AppComponent {
   title = 'Security Tools';
 
   ngOnInit() {
+
   }
 
+  showHideMenu(){
+    var navbarElement = document.getElementById("navbar");
+    if (navbarElement){
+      navbarElement.className === "navbar" ? navbarElement.className += " responsive" : navbarElement.className = "navbar";
+    }
+  }
 }
 
